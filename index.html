@@ -3,21 +3,29 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/home.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <title>Home | BMo's Travels</title>
   </head>
   <body>
-    <a href = "./home.html" style=text-decoration:none> <h1> BMo's Travels </h1> </a>
+    <a href = "./index.html" style=text-decoration:none> <h1> BMo's Travels </h1> </a>
     
       <ul id = "nav">
-        <li class="nav-item"> <a href = "./home.html"> Home </a> </li>
+        <li class="nav-item"> <a href = "./index.html"> Home </a> </li>
         <li class="nav-item"> <a href = "./bucket-list.html"> Bucket List </a> </li>
         <li class="nav-item"> <a href = "./places.html"> Places I've Visited </a> </li>
         <li class="nav-item"> <a href = "./about-me.html"> About Me </a> </li>
         <li class="nav-item"> <a href = "./contact.html"> Contact </a> </li>
       </ul>
 
-    <img src = "images/header.jpg"/>
+    <div class = "single-item">
+      <div> <img src = "images/header.jpg"/> </div>
+      <div> <img src = "images/seattle.jpg"/> </div>
+      <div> <img src = "images/sushi.jpg"/> </div>
+      <div> <img src = "images/chamounix.jpg"/> </div>
+    </div>
     
     <div id="main">
       <h2> Welcome to my travel blog! </h2>
@@ -40,5 +48,8 @@
     <div id="change-user"> <button>Change user</button> </div>
 
     <script src="scripts/main.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>

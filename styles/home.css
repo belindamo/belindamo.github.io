@@ -1,0 +1,40 @@
+
+#main {
+	width:78%;
+	padding-top: 0;
+}
+
+#where-am-i{
+	margin-top: 2%;
+	width:12%;
+	text-align:center;
+	border: 2px solid black;
+	font-size:14px;
+	border-radius:15%;
+}
+
+#change-user{
+	padding-left: 4%;
+}
+
+/* Slick */
+
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 80%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slider{
+  width: 80%;
+  height: 40%;
+  margin: 100px auto;
+}

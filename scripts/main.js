@@ -1,3 +1,9 @@
+// Carousel
+$(document).ready(function(){
+  $('.single-item').slick();
+});
+
+/*
 //image switcher code
 
 var myImage = document.querySelector('img');
@@ -10,7 +16,7 @@ myImage.onclick = function() {
 		myImage.setAttribute('src', 'images/header.jpg');
 	}
 }
-
+*/
 // personalized welcome message code
 
 var myButton = document.querySelector('button');

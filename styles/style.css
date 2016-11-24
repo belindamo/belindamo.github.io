@@ -58,21 +58,3 @@ div {
 	padding: 2%;
 	float:left;
 }
-
-#main {
-	width:78%;
-	padding-top: 0;
-}
-
-#where-am-i{
-	margin-top: 2%;
-	width:12%;
-	text-align:center;
-	border: 2px solid black;
-	font-size:14px;
-	border-radius:15%;
-}
-
-#change-user{
-	padding-left: 4%;
-}
