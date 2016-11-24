@@ -8,6 +8,7 @@
     <link href="slick/slick.css" rel="stylesheet" type="text/css"/>
     <link href="slick/slick-theme.css" rel="stylesheet" type="text/css"/>
     <title>Home | BMo's Travels</title>
+
   </head>
   <body>
     <a href = "./index.html" style=text-decoration:none> <h1> BMo's Travels </h1> </a>
@@ -20,13 +21,15 @@
         <li class="nav-item"> <a href = "./contact.html"> Contact </a> </li>
       </ul>
 
+    <img src = "images/header.jpg"/>
+    <!--
     <div class = "single-item">
       <div> <img src = "images/header.jpg"/> </div>
       <div> <img src = "images/seattle1.jpg"/> </div>
       <div> <img src = "images/sushi.jpg"/> </div>
       <div> <img src = "images/chamonix.jpg"/> </div>
     </div>
-    
+    -->
     <div id="main">
       <h2> Welcome to my travel blog! </h2>
       <p> My name is BMo, and here I will document my travels around the world. Some of the things on my bucket list include: </p>
@@ -47,9 +50,18 @@
     </div>
     <div id="change-user"> <button>Change user</button> </div>
 
-    <script src="scripts/main.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!--
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.single-item').slick();
+      });
+    </script>
+  -->
+
   </body>
 </html>
