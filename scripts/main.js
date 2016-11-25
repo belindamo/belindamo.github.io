@@ -1,18 +1,4 @@
-
- //image switcher code
- 
- var myImage = document.querySelector('img');
- 
- myImage.onclick = function() {
- 	var mySrc = myImage.getAttribute('src');
- 	if (mySrc == 'images/header.jpg') {
- 		myImage.setAttribute('src', 'images/chamonix.jpg');
- 	} else {
- 		myImage.setAttribute('src', 'images/header.jpg');
- 	}
- }
- 
- // personalized welcome message code
+// personalized welcome message code
  
  var myButton = document.querySelector('button'); 
  var myHeading = document.querySelector('h3');
