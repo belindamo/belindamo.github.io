@@ -39,18 +39,9 @@ li a:hover {
   color:black;
 }
 
-/*
-p, li, h2 {
-	line-height: 20px;
-	letter-spacing: 1px;
+img {
+	height:400px;
 }
-*/
-/*
-div {
-	padding: 2%;
-	float:left;
-}
-*/
 
 .main-pics {
 	display: block; /* takes up space on page and can have margin/other spacing vals applied to it */
